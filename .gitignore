@@ -1,0 +1,25 @@
+# macOS
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# iOS / Xcode
+*.xcodeproj/
+*.xcworkspace/
+build/
+DerivedData/
+*.ipa
+*.dSYM.zip
+*.dSYM
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+xcuserdata/
+Pods/
+
+# Claude Code personal settings
+.claude/settings.json
+.claude/plans/
+.claude/credentials*
