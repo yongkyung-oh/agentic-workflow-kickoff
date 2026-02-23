@@ -1,6 +1,6 @@
 # agent-bootstrap
 
-A minimal workflow bootstrap for AI agents.
+A minimal workflow bootstrap for AI coding agents.
 
 > Optimized for Claude Code, portable to Codex, Gemini CLI, Antigravity, and other file-aware agents.
 
