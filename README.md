@@ -162,7 +162,7 @@ See [_BOOTSTRAP_GUIDE.md](_BOOTSTRAP_GUIDE.md) for full documentation:
 
 ## Acknowledgments
 
-The workflow orchestration rules in CLAUDE.md (planning, subagents, self-improvement loop, verification) were inspired by community-synthesized best practices from [Boris Cherny's Claude Code workflow thread](https://x.com/bcherny/status/2007179832300581177). The three-document architecture and specs/sessions system are original to this project.
+The workflow orchestration rules in CLAUDE.md (planning, subagents, self-improvement loop, verification) were inspired by community-synthesized best practices from [Boris Cherny's Claude Code workflow thread](https://x.com/bcherny/status/2007179832300581177). The "never send an LLM to do a linter's job" and "pointers over copy" principles are from [Writing a Good CLAUDE.md](https://www.humanlayer.dev/blog/writing-a-good-claude-md) by HumanLayer. The three-document architecture and specs/sessions system are original to this project.
 
 ## References
 
