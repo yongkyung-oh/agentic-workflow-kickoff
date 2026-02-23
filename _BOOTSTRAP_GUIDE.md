@@ -1,4 +1,4 @@
-# agentic-workflow-kickoff — Bootstrap Guide
+# agent-bootstrap — Bootstrap Guide
 
 > Last verified: 2026-02 | Optimized for Claude Code, portable to Codex, Gemini CLI, Antigravity, and other file-aware agents
 
@@ -8,8 +8,8 @@
 
 ```bash
 cd your-project
-cp /path/to/agentic-workflow-kickoff/{AGENTS.md,CLAUDE.md,KNOWLEDGE.md,_BOOTSTRAP_GUIDE.md} .
-cp -r /path/to/agentic-workflow-kickoff/.claude .claude
+cp /path/to/agent-bootstrap/{AGENTS.md,CLAUDE.md,KNOWLEDGE.md,_BOOTSTRAP_GUIDE.md} .
+cp -r /path/to/agent-bootstrap/.claude .claude
 ```
 
 ### 2. Bootstrap your project
@@ -53,7 +53,7 @@ This works in any agent that reads markdown files — Codex, Gemini CLI, Antigra
 ## File Structure
 
 ```
-agentic-workflow-kickoff/
+agent-bootstrap/
 ├── AGENTS.md                     ← Universal agent instructions (all AI tools)
 ├── CLAUDE.md                     ← Claude Code execution rules
 ├── KNOWLEDGE.md                  ← Domain knowledge guide
@@ -139,8 +139,8 @@ Step 3: Add KNOWLEDGE.md + skills/ (domain knowledge)
 ```bash
 # 1. Copy bootstrap files
 cd your-project
-cp /path/to/agentic-workflow-kickoff/{AGENTS.md,CLAUDE.md,KNOWLEDGE.md,_BOOTSTRAP_GUIDE.md} .
-cp -r /path/to/agentic-workflow-kickoff/.claude .claude
+cp /path/to/agent-bootstrap/{AGENTS.md,CLAUDE.md,KNOWLEDGE.md,_BOOTSTRAP_GUIDE.md} .
+cp -r /path/to/agent-bootstrap/.claude .claude
 
 # 2. Bootstrap
 # Claude Code: > /init
@@ -476,6 +476,7 @@ tools: Read, Grep, Glob
 - [AGENTS.md Standard](https://github.com/agentsmd/agents.md) — universal agent instructions format (60k+ repos)
 - [Writing a Good CLAUDE.md](https://www.humanlayer.dev/blog/writing-a-good-claude-md) — context engineering best practices
 - [Claude Code Best Practices (community)](https://rosmur.github.io/claudecode-best-practices/) — aggregated patterns from r/ClaudeAI and practitioner blogs
+- [Boris Cherny's Claude Code Workflow](https://x.com/bcherny/status/2007179832300581177) — workflow practices from the creator of Claude Code
 
 **Community & Tools**
 - [awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code) — curated skills, hooks, commands, and learning resources

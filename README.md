@@ -1,4 +1,4 @@
-# agentic-workflow-kickoff
+# agent-bootstrap
 
 A minimal workflow bootstrap for Claude Code projects.
 
@@ -21,10 +21,10 @@ A minimal workflow bootstrap for Claude Code projects.
 ### 1. Copy files to your project
 
 ```bash
-git clone https://github.com/yongkyung-oh/agentic-workflow-kickoff.git
+git clone https://github.com/yongkyung-oh/agent-bootstrap.git
 cd your-project
-cp /path/to/agentic-workflow-kickoff/{AGENTS.md,CLAUDE.md,KNOWLEDGE.md,_BOOTSTRAP_GUIDE.md} .
-cp -r /path/to/agentic-workflow-kickoff/.claude .claude
+cp /path/to/agent-bootstrap/{AGENTS.md,CLAUDE.md,KNOWLEDGE.md,_BOOTSTRAP_GUIDE.md} .
+cp -r /path/to/agent-bootstrap/.claude .claude
 ```
 
 ### 2. Bootstrap your project
