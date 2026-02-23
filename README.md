@@ -160,6 +160,10 @@ See [_BOOTSTRAP_GUIDE.md](_BOOTSTRAP_GUIDE.md) for full documentation:
 | `.claude/tasks/lessons.md` | Correction tracking with promotion path |
 | `.claude/agents/_template.md` | Custom subagent template with frontmatter |
 
+## Acknowledgments
+
+The workflow orchestration rules in CLAUDE.md (planning, subagents, self-improvement loop, verification) were inspired by community-synthesized best practices from [Boris Cherny's Claude Code workflow thread](https://x.com/bcherny/status/2007179832300581177). The three-document architecture and specs/sessions system are original to this project.
+
 ## References
 
 **Claude Code Official**
@@ -176,6 +180,7 @@ See [_BOOTSTRAP_GUIDE.md](_BOOTSTRAP_GUIDE.md) for full documentation:
 - [AGENTS.md Standard](https://github.com/agentsmd/agents.md) — universal agent instructions format (60k+ repos)
 - [Writing a Good CLAUDE.md](https://www.humanlayer.dev/blog/writing-a-good-claude-md) — context engineering best practices
 - [Claude Code Best Practices (community)](https://rosmur.github.io/claudecode-best-practices/) — aggregated patterns from r/ClaudeAI and practitioner blogs
+- [Boris Cherny's Claude Code Workflow](https://x.com/bcherny/status/2007179832300581177) — workflow practices from the creator of Claude Code
 
 **Community & Tools**
 - [awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code) — curated skills, hooks, commands, and learning resources
